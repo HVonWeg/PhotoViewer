@@ -13,7 +13,7 @@ Tapping on an element in the list navigates to the detail view.
 - Using CollectionView instead of TableView.
 - Fixed loading image issues with the "Network Link Conditioner" from Mac with "Very Bad Network" condition.
 - Implemented image cache.
-- Implemented fadeIn Animation for non cached images, no animation for cached images.
+- FadeIn animation implemented for non-cached images.
 - Canceling requests that are not necessary any more.
 - Using activity indicator for showing downloading process for very bad network.
 - Supporting landscape and portrait mode.
