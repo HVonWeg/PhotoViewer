@@ -5,7 +5,7 @@ It contains a Photo List Collection view and a detail view.
 Tapping on an element in the list navigates to the detail view.
 
 <p align="center">
-<img height="300" src="https://github.com/HVonWeg/PhotoViewer/blob/main/screenshot.png" />
+<img height="300" src="https://github.com/HVonWeg/PhotoViewer/blob/master/screenshot.png" />
 </p>
 
 
