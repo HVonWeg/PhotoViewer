@@ -1,6 +1,6 @@
 # PhotoViewer
 
-Example Swift project for viewing photos from the fake API https://jsonplaceholder.typicode.com
+Sample Swift project for viewing photos from the fake API https://jsonplaceholder.typicode.com
 It contains a Photo List Collection view and a detail view.
 Tapping on an element in the list navigates to the detail view.
 
