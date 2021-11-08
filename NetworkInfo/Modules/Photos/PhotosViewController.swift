@@ -7,7 +7,6 @@
 
 import UIKit
 
-// https://medium.com/flawless-app-stories/mvvm-in-ios-swift-aa1448a66fb4
 class PhotosViewController: UIViewController {
     
     @IBOutlet weak var imageCollectionView: ImageCollectionView!
