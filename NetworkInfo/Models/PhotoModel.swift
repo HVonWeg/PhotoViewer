@@ -8,9 +8,9 @@
 import Foundation
 
 struct PhotoModel: Codable {
-    var albumID: Int?
-    var id: Int
-    var title: String
-    var url: String
-    var thumbnailUrl: String
+    let albumID: Int?
+    let id: Int
+    let title: String
+    let url: String
+    let thumbnailUrl: String
 }

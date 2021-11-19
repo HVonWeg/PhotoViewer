@@ -11,6 +11,7 @@ import Foundation
 typealias FetchFotosResult = (Result<[PhotoModel], Error>) -> Void
 
 enum FetchError: Error {
+    case badURL
     case badImage
     case badResponse
     case invalidJson

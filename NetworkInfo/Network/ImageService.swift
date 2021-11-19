@@ -51,7 +51,7 @@ class ImageService {
         
         // Trigger new request
         guard let url = URL(string: url) else {
-            completion(.failure(FetchError.badImage))
+            completion(.failure(FetchError.badURL))
             return nil
         }
         let token = UUID()
@@ -62,7 +62,7 @@ class ImageService {
             if let error = error {
                 completion(.failure(FetchedImageError(error: error, token: token)))
             } else {
-                guard let image = UIImage(data: data!) else {
+                guard let data = data, let image = UIImage(data: data) else {
                     completion(.failure(FetchError.badImage))
                     return
                 }

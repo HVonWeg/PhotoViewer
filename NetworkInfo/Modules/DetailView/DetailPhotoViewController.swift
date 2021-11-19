@@ -12,12 +12,12 @@ class DetailPhotoViewController: UIViewController {
     private var model: PhotoModel
     
     // Quick and dirty ViewController :)
-    // TODO: add error handling, stackview scrolling and all other stuff you want ...
+    // TODO: add error handling, StackView scrolling and all other stuff you want ...
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var photoTitle: UILabel!
     
-    // MARK: - Lifecylce
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

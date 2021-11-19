@@ -13,7 +13,7 @@ class PhotosViewController: UIViewController {
     
     private lazy var viewModel = PhotosViewModel()
 
-    // MARK: - Livecyle
+    // MARK: - Livecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
