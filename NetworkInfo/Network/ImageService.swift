@@ -56,7 +56,11 @@ class ImageService {
         }
         let token = UUID()
         let request = URLRequest(url: url)
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+        let task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
+            guard let self = self else {
+                return
+            }
+            
             defer { self.removeFromRunningRequests(uuid: token) }
             
             if let error = error {
